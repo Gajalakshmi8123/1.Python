@@ -30,12 +30,14 @@ class Multiple:
         Height = int(input("Enter the height of the triangle: "))
         Breadth = int(input("Enter the base of the triangle: "))
         Area_formula = (Height * Breadth) / 2
+        print("Area_formula = (Height * Breadth) / 2")
         print("Area of Triangle:", Area_formula)
         
         Height1 = int(input("Enter the first side of the triangle: "))
         Height2 = int(input("Enter the second side of the triangle: "))
         Breadth = int(input("Enter the third side of the triangle: "))
         Perimeter_Triangle = Height1 + Height2 + Breadth
+        print("Perimeter_Triangle = Height1 + Height2 + Breadth")
         print("Perimeter of Triangle:", Perimeter_Triangle)
     
     
@@ -45,9 +47,22 @@ class Multiple:
             print(Number, "is an Even number")
         else:
             print(Number, "is an Odd number")
+
+    def BMI():
+        BMI= int(input("Enter the BMI Index:"))
+        if BMI<18:
+           print("UnderWeight")
+        elif 18.5 <= BMI < 25:
+           print("thin for height")
+        elif 25 <= BMI < 30:
+           print("weight")
+        else:
+           print("Over Weight")
+
+
     
     
-    
+
 
 
 
