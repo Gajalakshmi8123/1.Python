@@ -1,4 +1,9 @@
 class Multiple:
+    def Subfields():
+        Lists=["Machine Learning","Neural Networks","Vision","Robotics","Speech Processing","Natural Language Processing"]
+        for i in Lists:
+            print(i)
+
     def eligible():
         Gender = input("Your Gender: ")
         Age = int(input("Your Age: "))
